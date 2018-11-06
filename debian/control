@@ -1,0 +1,16 @@
+Source: uhubctl
+Section: unknown
+Priority: optional
+Maintainer: David Johnson <davidj@sifive.com>
+Build-Depends: debhelper (>=9), libusb-1.0-0-dev
+Standards-Version: 3.9.6
+Homepage: https://github.com/mvp/uhubctl
+#Vcs-Git: git://anonscm.debian.org/collab-maint/uhubctl.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/uhubctl.git
+
+Package: uhubctl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libusb-1.0-0
+Description: USB hub power control utility
+ uhubctl is utility to control USB power per-port on smart USB hubs.
+ Smart hub is defined as one that implements per-port power switching.

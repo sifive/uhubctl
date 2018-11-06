@@ -1,0 +1,5 @@
+uhubctl (2.0.0-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- David Johnson <davidj@sifive.com>  Tue, 06 Nov 2018 12:31:22 -0800
